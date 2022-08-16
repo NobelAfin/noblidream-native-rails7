@@ -1,0 +1,2 @@
+module BuyDreamHelper
+end

@@ -1,0 +1,2 @@
+module NewSkillHelper
+end
