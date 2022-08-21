@@ -1,7 +1,10 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  # Verifies that versions and hashed value of the package contents in the project's package.json
+  config.webpacker.check_yarn_integrity = false
   # Settings specified here will take precedence over those in config/application.rb.
+  RAILS_ENV=production rails webpacker:compile
 
   # Code is not reloaded between requests.
   config.cache_classes = true
