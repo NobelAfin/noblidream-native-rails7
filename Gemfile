@@ -24,6 +24,11 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
+gem 'sass-rails', '>= 6'
+gem 'turbolinks', '~> 5'
+gem 'webpacker', '~>3.0'
+gem 'psych', '< 4'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
