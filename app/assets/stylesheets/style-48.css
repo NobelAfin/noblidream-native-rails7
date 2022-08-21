@@ -1,0 +1,130 @@
+
+/* General CSS */
+/* Padding between columns */
+.col-pad{
+	padding-left:0px;
+	padding-right:0px;
+}
+/* ui-48 */
+.ui-48{
+margin:60px auto;	
+}
+
+.mrtop{
+	margin-top: 67px;
+}
+@media(max-width:480px) {
+	.mrtop {
+	margin-top: 0px;
+	}
+}
+
+/* Item */
+.ui-48 .ui-item{
+	max-width: 100%;
+    margin: -36px auto;
+	text-align:center;
+	border:1px solid #e7e7e7;
+	border-radius:5px;
+	box-shadow:3px 3px 0px 1px rgba(0,0,0,0.04);
+	padding:5px 0px;
+	background: white;
+	border-radius: 8%;
+}
+@media(max-width:480px) {
+	.ui-48 .ui-item {
+	border-radius: 0%;
+	}
+}
+
+/* Logo */
+.ui-48 .ui-item a > img{
+	max-width:200px;
+	margin: 12px auto;
+}
+/* Report */
+.ui-48 .ui-item .ui-report .r-item{
+	padding:12px 10px;
+	border-top: 1px solid #eee;
+	background: #037aff00;
+}
+.ui-48 .ui-item .ui-report .bor-right{
+	border-right: 1px solid #eee;
+}
+.ui-48 .ui-item .ui-report .bor-bottom{
+	border-bottom: 1px solid #eee;
+}
+/* Big Heading */	
+.ui-48 .ui-item .ui-report .r-item h3{
+	font-size:50px;
+	line-height:32px;
+	font-weight:400;
+	margin-top: 12%;
+}
+@media(max-width:480px) {
+	.ui-48 .ui-item .ui-report .r-item h3 {
+	font-size:22px;
+	line-height:32px;
+	font-weight:400;
+	}
+}
+/* Heading */
+.ui-48 .ui-item .ui-report .r-item h4{
+	font-size:21px;
+	line-height:28px;
+	text-transform:uppercase;
+	color: #171717;
+}
+@media(max-width:480px) {
+	.ui-48 .ui-item .ui-report .r-item h4 {
+	font-size:12px;
+	line-height:28px;
+	text-transform:uppercase;
+	}
+}
+/* Contact Details */
+.ui-48 .ui-item .ui-contact{
+	padding:15px;
+	border-bottom: 1px solid #eee;
+	color:#777;
+	font-size:12px;
+	line-height:22px;
+}
+/* Heading */ 
+.ui-48 .ui-item .ui-contact h4{
+	text-transform:uppercase;
+	font-size:12px;
+	line-height:22px;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	border-bottom:1px solid #eee;
+}
+/* Details */
+.ui-48 .ui-item .ui-contact .ui-details{
+	margin-bottom:5px;
+}
+/* Icon */
+.ui-48 .ui-item .ui-contact .ui-details i{
+	float:left;
+	width:22px;
+	margin-top:5px;
+}
+/* Content */
+.ui-48 .ui-item .ui-contact .ui-details span{
+	margin-left:27px;
+	display:block;
+}
+/* Social Media */
+.ui-48 .ui-item .ui-social{
+	padding:13px 15px 10px 15px;
+}
+/* Icon */
+.ui-48 .ui-item .ui-social a > i{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	margin-right:5px;
+	border-radius:2px;
+}

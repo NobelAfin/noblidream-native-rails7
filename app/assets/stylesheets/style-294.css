@@ -1,0 +1,103 @@
+
+
+/* General CSS */
+/* Column Mobile */
+@media(max-width: 500px){
+	.ui-x .col-mob{
+		width: 100%;
+	}
+}
+/* UI - X */
+.ui-x{
+	margin: 60px 0px;
+}
+/* Item */
+.ui-x a.ui-item{
+	display: block; 
+    width: 220px;
+    height: 220px;
+	margin: 20px auto;
+    position: relative;
+	/*border-radius: 100%;*/
+	border: 1px solid #eee;
+	box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.05);
+}
+/* Image */
+.ui-x a.ui-item > img{
+	/*border-radius: 100%;*/
+}
+/* Flip */
+.ui-x a.ui-item .ui-flip {
+    width: 100%;
+    height: 100%;
+	/*border-radius: 100%; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+/* Front */
+.ui-x a.ui-item  .ui-front {
+    z-index: 2;
+}
+.ui-x a.ui-item:hover .ui-front {
+    z-index: 1;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+/* Back */
+.ui-x a.ui-item > span.ui-back {
+	display: block;
+	text-align: center;
+    z-index: 1;
+	padding: 65px 0px;
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);  
+    transform: rotateY(-180deg);
+}
+.ui-x a.ui-item:hover > span.ui-back {
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+/* Name */
+.ui-x a.ui-item > span.ui-back > span.ui-name{
+	display: block;
+	font-size: 19px;
+	line-height: 23px;
+	color: #666;
+}
+/* Designation */
+.ui-x a.ui-item > span.ui-back > span.ui-desig{
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	color: #aaa;
+	margin: 6px 0px 9px;
+}
+/* Social Media */
+.ui-x a.ui-item > span.ui-back > span.ui-social{
+	display: block;
+}
+.ui-x a.ui-item > span.ui-back > span.ui-social > i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	/*border-radius: 100%;*/
+	text-align: center;
+	margin: 0px 1px;
+}

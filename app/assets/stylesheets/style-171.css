@@ -1,0 +1,103 @@
+
+/* General CSS */
+body{
+	background:#f4f8fd;
+}
+/* UI - X */
+.ui-171{
+	margin:0px 0px;
+	padding: 0px 10px;
+}
+/* Outer */
+.ui-171 .ui-outers{
+	max-width:100%;
+	margin:0px auto;
+	border:2px solid #fff;
+	box-shadow: 0px 0px 15px rgba(48, 91, 194, 0.78);
+	position:relative;
+	overflow:hidden;
+}
+/* Tab Content */
+.ui-171 .ui-outers .tab-content{
+	position:absolute;
+	z-index:-1;
+	width:100%;
+	top:0px;
+}
+@media(max-width: 637px){
+	.ui-171 .ui-outers .tab-content{
+		position:static;
+	}
+}
+/* Image */
+.ui-171 .ui-outers .tab-content img{
+	width:100%;
+}
+/* Inner */
+.ui-171 .ui-outers .ui-inner{	
+	margin:0px 0px;
+	background: #ffffffe6;
+	padding:15px 30px;
+	text-align:center;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.35);
+}
+@media(max-width: 757px){
+	.ui-171 .ui-outers .ui-inner{	
+		margin-top:60px;
+		margin-bottom:60px;
+	}
+}
+@media(max-width: 637px){
+	.ui-171 .ui-outers .ui-inner{
+		margin:0px;
+	}
+}
+/* Heading */
+.ui-171 .ui-outers .ui-inner h3{
+	font-size:31px;
+	text-transform:uppercase;
+	line-height:26px;
+	margin:10px 0px 0px;
+}
+/* Nav Tabs */
+.ui-171 .ui-outers .ui-inner .ui-nav{
+	margin:15px 0px 8px;
+	width:100%;
+}
+/* Carousel Image */
+.ui-171 .ui-outers .ui-inner .ui-nav a > img{
+	/*border-radius:100%;*/
+	border:2px solid #fff;
+	box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
+/* Controls */
+.ui-171 .owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+/* Styling Pagination*/
+.ui-171 .owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.ui-171 .owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	background:#fff;
+	box-shadow:inset 0px 0px 2px rgba(0,0,0,0.6);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.ui-171 .owl-theme .owl-controls .owl-page.active span,
+.ui-171 .owl-theme .owl-controls .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	background:#185dd5 !important;
+	box-shadow:inset 0px 0px 2px rgba(0,0,0,0.6);
+}

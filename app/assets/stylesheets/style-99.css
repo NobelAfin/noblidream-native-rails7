@@ -1,0 +1,48 @@
+
+/* UI X */
+.ui-99{
+	margin:50px 0px;
+}
+.ui-99 .team-member {
+	position: relative;
+	max-width: 570px;
+	margin: 25px 10px 10px 10px;
+}
+.ui-99 img {
+	width: 100%;
+	max-width: 200px;
+	float: left;
+	border-radius:3px;
+}
+.ui-99 .team-details { 
+	margin-left: 225px; 
+}
+@media (max-width:450px){
+	.ui-99 .team-member {
+		text-align:center;
+	}
+	.ui-99 img {
+		float: none;
+		margin:10px auto;
+	}
+	.ui-99 .team-details { 
+		margin-left: 0px; 
+		text-align:center;
+	}	
+}
+.ui-99 .team-details .deg {
+	color: #fff;
+}
+.ui-99  .brand-bg {
+	margin-top:5px;
+}
+.ui-99 .brand-bg a{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	border-radius:50px;
+	margin-right:3px;
+}

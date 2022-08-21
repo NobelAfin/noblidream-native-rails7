@@ -1,0 +1,61 @@
+
+/* UI X */
+.ui-50{
+	margin:200px auto;
+}
+.ui-50 .ui-outer{
+	position:absolute;
+	top:0px;
+	left:0px;
+	/*height:100%;*/
+	width:100%;
+	/*background:rgba(0,0,0,0.6);*/
+	display:none;
+}
+.ui-50 .ui-outer a.ui-close{
+	font-size:49px;
+	font-weight:300;
+	color:red;
+	position:absolute;
+	right:311px;
+	top:40px;
+}
+.ui-50 .ui-outer .ui-content{
+	margin: 5% 25% 0% 25%;
+	max-width:50%;
+	padding:15px 20px;
+	background:#fff;
+	border:1px solid rgba(255,255,255,0.3);
+	box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+}
+.ui-50 .ui-outer h3{
+	text-align:center;
+	font-size:20px;
+	font-weight:400;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #eee;
+}
+.ui-50 .ui-outer form{
+	max-width:270px;
+	margin:10px auto 25px auto;
+}
+.ui-50 .s-media{
+	margin-top:10px;
+	text-align:center;
+}
+.ui-50 .s-media h4{
+	font-size:12px;
+	text-transform:uppercase;
+}
+.ui-50 .s-media a{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	border:0px;
+	text-align:center;
+	line-height:40px;
+	padding:0px;
+	border-radius:100px;
+	margin:5px 2px;
+}
